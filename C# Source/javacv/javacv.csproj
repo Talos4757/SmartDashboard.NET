@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\DLLs\javacv.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85C7C0C7-AF15-487A-8173-082D3813ED4F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>javacv</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <RootNamespace>com.googlecode.javacv</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="__%003CUnloadable%003E.cs" />
+    <Compile Include="BaseChildSettings$PropertyVetoExceptionThatNetBean.cs" />
+    <Compile Include="BaseChildSettings.cs" />
+    <Compile Include="BaseSettings.cs" />
+    <Compile Include="CameraDevice$CalibratedSettings$1.cs" />
+    <Compile Include="CameraDevice.cs" />
+    <Compile Include="CameraDevice$CalibrationSettings$1.cs" />
+    <Compile Include="CameraSettings.cs" />
+    <Compile Include="CanvasFrame$1$1.cs" />
+    <Compile Include="CanvasFrame$1$2.cs" />
+    <Compile Include="CanvasFrame$1.cs" />
+    <Compile Include="CanvasFrame$1MovedListener.cs" />
+    <Compile Include="CanvasFrame$2.cs" />
+    <Compile Include="CanvasFrame$3.cs" />
+    <Compile Include="CanvasFrame$4.cs" />
+    <Compile Include="CanvasFrame.cs" />
+    <Compile Include="ColorCalibrator.cs" />
+    <Compile Include="DC1394FrameGrabber.cs" />
+    <Compile Include="FFmpegFrameGrabber.cs" />
+    <Compile Include="FFmpegFrameRecorder.cs" />
+    <Compile Include="FlyCaptureFrameGrabber.cs" />
+    <Compile Include="FrameGrabber.cs" />
+    <Compile Include="FrameRecorder.cs" />
+    <Compile Include="GNImageAligner$1.cs" />
+    <Compile Include="GNImageAligner$2.cs" />
+    <Compile Include="GNImageAligner$3.cs" />
+    <Compile Include="GNImageAligner$4.cs" />
+    <Compile Include="GNImageAligner$5.cs" />
+    <Compile Include="GNImageAligner.cs" />
+    <Compile Include="GeometricCalibrator.cs" />
+    <Compile Include="HandMouse.cs" />
+    <Compile Include="ImageAligner.cs" />
+    <Compile Include="ImageTransformer.cs" />
+    <Compile Include="JavaCV$1.cs" />
+    <Compile Include="JavaCV.cs" />
+    <Compile Include="JavaCvErrorCallback$1.cs" />
+    <Compile Include="MarkedPlane.cs" />
+    <Compile Include="Marker.cs" />
+    <Compile Include="MarkerDetector.cs" />
+    <Compile Include="ObjectFinder.cs" />
+    <Compile Include="OpenCVFrameGrabber.cs" />
+    <Compile Include="OpenCVFrameRecorder.cs" />
+    <Compile Include="Parallel$1.cs" />
+    <Compile Include="Parallel.cs" />
+    <Compile Include="ProCamColorCalibrator.cs" />
+    <Compile Include="ProCamGeometricCalibrator$1.cs" />
+    <Compile Include="ProCamGeometricCalibrator$2.cs" />
+    <Compile Include="ProCamGeometricCalibrator$3.cs" />
+    <Compile Include="ProCamGeometricCalibrator$4.cs" />
+    <Compile Include="ProCamGeometricCalibrator.cs" />
+    <Compile Include="ProCamTransformer$1Cache.cs" />
+    <Compile Include="ProCamTransformer.cs" />
+    <Compile Include="ProjectiveDevice.cs" />
+    <Compile Include="ProjectiveGainBiasTransformer$1Cache.cs" />
+    <Compile Include="ProjectiveGainBiasTransformer.cs" />
+    <Compile Include="ProjectiveTransformer$1Cache.cs" />
+    <Compile Include="ProjectiveTransformer.cs" />
+    <Compile Include="ProjectorDevice$CalibratedSettings$1.cs" />
+    <Compile Include="ProjectorDevice.cs" />
+    <Compile Include="ProjectorDevice$CalibrationSettings$1.cs" />
+    <Compile Include="ProjectorSettings.cs" />
+    <Compile Include="ReflectanceInitializer.cs" />
+    <Compile Include="VideoInputFrameGrabber.cs" />
+    <Compile Include="cpp\ARToolKitPlus.cs" />
+    <Compile Include="cpp\PGRFlyCapture.cs" />
+    <Compile Include="cpp\avcodec.cs" />
+    <Compile Include="cpp\avdevice.cs" />
+    <Compile Include="cpp\avfilter.cs" />
+    <Compile Include="cpp\avformat.cs" />
+    <Compile Include="cpp\avutil.cs" />
+    <Compile Include="cpp\cvkernels.cs" />
+    <Compile Include="cpp\dc1394.cs" />
+    <Compile Include="cpp\opencv_calib3d.cs" />
+    <Compile Include="cpp\opencv_core$CvMat$1.cs" />
+    <Compile Include="cpp\opencv_core$CvMat$2.cs" />
+    <Compile Include="cpp\opencv_core.cs" />
+    <Compile Include="cpp\opencv_features2d.cs" />
+    <Compile Include="cpp\opencv_highgui.cs" />
+    <Compile Include="cpp\opencv_imgproc.cs" />
+    <Compile Include="cpp\opencv_legacy.cs" />
+    <Compile Include="cpp\opencv_objdetect.cs" />
+    <Compile Include="cpp\opencv_video.cs" />
+    <Compile Include="cpp\postproc.cs" />
+    <Compile Include="cpp\swscale.cs" />
+    <Compile Include="cpp\videoInputLib.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ikvm.exports" />
+    <EmbeddedResource Include="javacv.jar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

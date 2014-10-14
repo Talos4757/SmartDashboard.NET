@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\DLLs\javacpp.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F46F541D-71E4-4BE8-B780-25DFB34AB03F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>javacpp</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <RootNamespace>com.googlecode.javacpp</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder$1.cs" />
+    <Compile Include="Builder.cs" />
+    <Compile Include="BytePointer.cs" />
+    <Compile Include="CLongPointer.cs" />
+    <Compile Include="CharPointer.cs" />
+    <Compile Include="DoublePointer.cs" />
+    <Compile Include="FloatPointer.cs" />
+    <Compile Include="FunctionPointer.cs" />
+    <Compile Include="Generator$1.cs" />
+    <Compile Include="Generator.cs" />
+    <Compile Include="IntPointer.cs" />
+    <Compile Include="Loader$1.cs" />
+    <Compile Include="Loader$2.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="LongPointer.cs" />
+    <Compile Include="Piper.cs" />
+    <Compile Include="Pointer.cs" />
+    <Compile Include="PointerPointer.cs" />
+    <Compile Include="ShortPointer.cs" />
+    <Compile Include="SizeTPointer.cs" />
+    <Compile Include="annotation\Allocator.cs" />
+    <Compile Include="annotation\ArrayAllocator.cs" />
+    <Compile Include="annotation\ByPtr.cs" />
+    <Compile Include="annotation\ByPtrPtr.cs" />
+    <Compile Include="annotation\ByPtrRef.cs" />
+    <Compile Include="annotation\ByRef.cs" />
+    <Compile Include="annotation\ByVal.cs" />
+    <Compile Include="annotation\Cast.cs" />
+    <Compile Include="annotation\Convention.cs" />
+    <Compile Include="annotation\Function.cs" />
+    <Compile Include="annotation\MemberGetter.cs" />
+    <Compile Include="annotation\MemberSetter.cs" />
+    <Compile Include="annotation\Name.cs" />
+    <Compile Include="annotation\Namespace.cs" />
+    <Compile Include="annotation\NoOffset.cs" />
+    <Compile Include="annotation\Opaque.cs" />
+    <Compile Include="annotation\Platform.cs" />
+    <Compile Include="annotation\Properties.cs" />
+    <Compile Include="annotation\ValueGetter.cs" />
+    <Compile Include="annotation\ValueSetter.cs" />
+    <Compile Include="annotation\OpaqueAttribute.cs" />
+    <Compile Include="annotation\NameAttribute.cs" />
+    <Compile Include="annotation\AllocatorAttribute.cs" />
+    <Compile Include="annotation\ArrayAllocatorAttribute.cs" />
+    <Compile Include="annotation\ByPtrAttribute.cs" />
+    <Compile Include="annotation\ByPtrPtrAttribute.cs" />
+    <Compile Include="annotation\ByPtrRefAttribute.cs" />
+    <Compile Include="annotation\ByRefAttribute.cs" />
+    <Compile Include="annotation\ByValAttribute.cs" />
+    <Compile Include="annotation\CastAttribute.cs" />
+    <Compile Include="annotation\ConventionAttribute.cs" />
+    <Compile Include="annotation\FunctionAttribute.cs" />
+    <Compile Include="annotation\MemberGetterAttribute.cs" />
+    <Compile Include="annotation\MemberSetterAttribute.cs" />
+    <Compile Include="annotation\NamespaceAttribute.cs" />
+    <Compile Include="annotation\NoOffsetAttribute.cs" />
+    <Compile Include="annotation\PlatformAttribute.cs" />
+    <Compile Include="annotation\PropertiesAttribute.cs" />
+    <Compile Include="annotation\ValueGetterAttribute.cs" />
+    <Compile Include="annotation\ValueSetterAttribute.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ikvm.exports" />
+    <EmbeddedResource Include="javacpp.jar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

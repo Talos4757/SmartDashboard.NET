@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\DLLs\WPIJavaCV.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13DE0542-9D4E-4E97-B974-28679D04C660}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>WPIJavaCV</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <RootNamespace>edu.wpi.first.wpijavacv</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="__%003CUnloadable%003E.cs" />
+    <Compile Include="WPIBinaryImage$1.cs" />
+    <Compile Include="WPIBinaryImage.cs" />
+    <Compile Include="WPICamera.cs" />
+    <Compile Include="WPIColor.cs" />
+    <Compile Include="WPIColorImage.cs" />
+    <Compile Include="WPIContour.cs" />
+    <Compile Include="WPIDisposable.cs" />
+    <Compile Include="WPIFFmpegVideo$1.cs" />
+    <Compile Include="WPIFFmpegVideo.cs" />
+    <Compile Include="WPIGrayscaleImage.cs" />
+    <Compile Include="WPIImage.cs" />
+    <Compile Include="WPIJavaCVUtils.cs" />
+    <Compile Include="WPILaptopCamera.cs" />
+    <Compile Include="WPIMemoryPool.cs" />
+    <Compile Include="WPIPoint.cs" />
+    <Compile Include="WPIPolygon.cs" />
+    <Compile Include="WPIWindow.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ikvm.exports" />
+    <EmbeddedResource Include="WPIJavaCV.jar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

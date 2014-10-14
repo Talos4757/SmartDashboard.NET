@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PdbContent>
+  <UserEntryPoint>null</UserEntryPoint>
+  <SourceFile Index="0" DocumentType="Text" Language="C#" LanguageVendor="Microsoft">C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\C# Source\WPICameraExtension\WPILaptopCameraExtension$GCThread.cs</SourceFile>
+  <SourceFile Index="1" DocumentType="Text" Language="C#" LanguageVendor="Microsoft">C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\C# Source\WPICameraExtension\__%003CUnloadable%003E.cs</SourceFile>
+  <SourceFile Index="2" DocumentType="Text" Language="C#" LanguageVendor="Microsoft">C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\C# Source\WPICameraExtension\VideoStreamExtension$BGThread.cs</SourceFile>
+  <SourceFile Index="3" DocumentType="Text" Language="C#" LanguageVendor="Microsoft">C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\C# Source\WPICameraExtension\VideoStreamExtension$GCThread.cs</SourceFile>
+  <SourceFile Index="4" DocumentType="Text" Language="C#" LanguageVendor="Microsoft">C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\C# Source\WPICameraExtension\WPICameraExtension$BGThread.cs</SourceFile>
+  <SourceFile Index="5" DocumentType="Text" Language="C#" LanguageVendor="Microsoft">C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\C# Source\WPICameraExtension\WPICameraExtension$GCThread.cs</SourceFile>
+  <SourceFile Index="6" DocumentType="Text" Language="C#" LanguageVendor="Microsoft">C:\Users\Matan\Documents\Repositories\SmartDashboard.NET\C# Source\WPICameraExtension\WPILaptopCameraExtension$BGThread.cs</SourceFile>
+  <Method Token="600001A">
+    <Scope OffsetRange="IL_0000-IL_0001" IsRoot="True" Method="600001A" />
+  </Method>
+  <Method Token="600001B">
+    <SequencePoints SourceFileIndex="0">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="0" StartLine="33" StartColumn="7" EndLine="33" EndColumn="157" />
+      <SequencePoint IlOffset="IL_0011" SourceFileIndex="0" StartLine="34" StartColumn="7" EndLine="34" EndColumn="32" />
+      <SequencePoint IlOffset="IL_0018" SourceFileIndex="0" StartLine="35" StartColumn="7" EndLine="35" EndColumn="24" />
+      <SequencePoint IlOffset="IL_0020" SourceFileIndex="0" StartLine="37" StartColumn="7" EndLine="37" EndColumn="29" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0028" IsRoot="True" Method="600001B">
+      <Scope OffsetRange="IL_0000-IL_0028" IsRoot="False" Method="600001B">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+        <Scope OffsetRange="IL_001f-IL_0020" IsRoot="False" Method="600001B">
+          <LocalVariable LocalVariablesSignatureToken="11000006" IlIndex="0" Attributes="PrivateScope" Signature="">extensionGcThread</LocalVariable>
+        </Scope>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="600001C">
+    <SequencePoints SourceFileIndex="0">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="0" StartLine="50" StartColumn="7" EndLine="50" EndColumn="30" />
+      <SequencePoint IlOffset="IL_0008" SourceFileIndex="0" StartLine="54" StartColumn="11" EndLine="54" EndColumn="31" />
+      <SequencePoint IlOffset="IL_0013" SourceFileIndex="0" Hidden="true" />
+      <SequencePoint IlOffset="IL_0021" SourceFileIndex="0" StartLine="61" StartColumn="9" EndLine="61" EndColumn="20" />
+      <SequencePoint IlOffset="IL_0026" SourceFileIndex="0" Hidden="true" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0029" IsRoot="True" Method="600001C">
+      <Scope OffsetRange="IL_0000-IL_0029" IsRoot="False" Method="600001C">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="600001D">
+    <SequencePoints SourceFileIndex="0">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="0" StartLine="69" StartColumn="7" EndLine="69" EndColumn="28" />
+      <SequencePoint IlOffset="IL_0007" SourceFileIndex="0" StartLine="70" StartColumn="7" EndLine="70" EndColumn="23" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0010" IsRoot="True" Method="600001D">
+      <Scope OffsetRange="IL_0000-IL_0010" IsRoot="False" Method="600001D">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="600001E">
+    <SequencePoints SourceFileIndex="0">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="0" StartLine="25" StartColumn="7" EndLine="25" EndColumn="36" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0006" IsRoot="True" Method="600001E">
+      <Scope OffsetRange="IL_0000-IL_0006" IsRoot="False" Method="600001E">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000001">
+    <Scope OffsetRange="IL_0000-IL_0001" IsRoot="True" Method="6000001" />
+  </Method>
+  <Method Token="6000002">
+    <SequencePoints SourceFileIndex="2">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="2" StartLine="33" StartColumn="7" EndLine="33" EndColumn="146" />
+      <SequencePoint IlOffset="IL_0011" SourceFileIndex="2" StartLine="34" StartColumn="7" EndLine="34" EndColumn="29" />
+      <SequencePoint IlOffset="IL_0018" SourceFileIndex="2" StartLine="35" StartColumn="7" EndLine="35" EndColumn="49" />
+      <SequencePoint IlOffset="IL_0025" SourceFileIndex="2" StartLine="37" StartColumn="7" EndLine="37" EndColumn="29" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_002d" IsRoot="True" Method="6000002">
+      <Scope OffsetRange="IL_0000-IL_002d" IsRoot="False" Method="6000002">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+        <Scope OffsetRange="IL_0024-IL_0025" IsRoot="False" Method="6000002">
+          <LocalVariable LocalVariablesSignatureToken="11000001" IlIndex="0" Attributes="PrivateScope" Signature="">extensionBgThread</LocalVariable>
+        </Scope>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000003">
+    <SequencePoints SourceFileIndex="2">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="2" StartLine="49" StartColumn="7" EndLine="49" EndColumn="26" />
+      <SequencePoint IlOffset="IL_0019" SourceFileIndex="2" StartLine="50" StartColumn="9" EndLine="50" EndColumn="16" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_001a" IsRoot="True" Method="6000003">
+      <Scope OffsetRange="IL_0000-IL_001a" IsRoot="False" Method="6000003">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000004">
+    <SequencePoints SourceFileIndex="2">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="2" StartLine="57" StartColumn="7" EndLine="57" EndColumn="28" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0008" IsRoot="True" Method="6000004">
+      <Scope OffsetRange="IL_0000-IL_0008" IsRoot="False" Method="6000004">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000005">
+    <SequencePoints SourceFileIndex="2">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="2" StartLine="25" StartColumn="7" EndLine="25" EndColumn="36" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0006" IsRoot="True" Method="6000005">
+      <Scope OffsetRange="IL_0000-IL_0006" IsRoot="False" Method="6000005">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="600000B">
+    <Scope OffsetRange="IL_0000-IL_0001" IsRoot="True" Method="600000B" />
+  </Method>
+  <Method Token="600000C">
+    <SequencePoints SourceFileIndex="4">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="4" StartLine="33" StartColumn="7" EndLine="33" EndColumn="144" />
+      <SequencePoint IlOffset="IL_0011" SourceFileIndex="4" StartLine="34" StartColumn="7" EndLine="34" EndColumn="31" />
+      <SequencePoint IlOffset="IL_0018" SourceFileIndex="4" StartLine="35" StartColumn="7" EndLine="35" EndColumn="43" />
+      <SequencePoint IlOffset="IL_0025" SourceFileIndex="4" StartLine="37" StartColumn="7" EndLine="37" EndColumn="29" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_002d" IsRoot="True" Method="600000C">
+      <Scope OffsetRange="IL_0000-IL_002d" IsRoot="False" Method="600000C">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+        <Scope OffsetRange="IL_0024-IL_0025" IsRoot="False" Method="600000C">
+          <LocalVariable LocalVariablesSignatureToken="11000003" IlIndex="0" Attributes="PrivateScope" Signature="">extensionBgThread</LocalVariable>
+        </Scope>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="600000D">
+    <SequencePoints SourceFileIndex="4">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="4" StartLine="49" StartColumn="7" EndLine="49" EndColumn="26" />
+      <SequencePoint IlOffset="IL_0019" SourceFileIndex="4" StartLine="50" StartColumn="9" EndLine="50" EndColumn="16" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_001a" IsRoot="True" Method="600000D">
+      <Scope OffsetRange="IL_0000-IL_001a" IsRoot="False" Method="600000D">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="600000E">
+    <SequencePoints SourceFileIndex="4">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="4" StartLine="57" StartColumn="7" EndLine="57" EndColumn="28" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0008" IsRoot="True" Method="600000E">
+      <Scope OffsetRange="IL_0000-IL_0008" IsRoot="False" Method="600000E">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="600000F">
+    <SequencePoints SourceFileIndex="4">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="4" StartLine="25" StartColumn="7" EndLine="25" EndColumn="36" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0006" IsRoot="True" Method="600000F">
+      <Scope OffsetRange="IL_0000-IL_0006" IsRoot="False" Method="600000F">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000006">
+    <Scope OffsetRange="IL_0000-IL_0001" IsRoot="True" Method="6000006" />
+  </Method>
+  <Method Token="6000007">
+    <SequencePoints SourceFileIndex="3">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="3" StartLine="33" StartColumn="7" EndLine="33" EndColumn="146" />
+      <SequencePoint IlOffset="IL_0011" SourceFileIndex="3" StartLine="34" StartColumn="7" EndLine="34" EndColumn="29" />
+      <SequencePoint IlOffset="IL_0018" SourceFileIndex="3" StartLine="35" StartColumn="7" EndLine="35" EndColumn="24" />
+      <SequencePoint IlOffset="IL_0020" SourceFileIndex="3" StartLine="37" StartColumn="7" EndLine="37" EndColumn="29" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0028" IsRoot="True" Method="6000007">
+      <Scope OffsetRange="IL_0000-IL_0028" IsRoot="False" Method="6000007">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+        <Scope OffsetRange="IL_001f-IL_0020" IsRoot="False" Method="6000007">
+          <LocalVariable LocalVariablesSignatureToken="11000002" IlIndex="0" Attributes="PrivateScope" Signature="">extensionGcThread</LocalVariable>
+        </Scope>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000008">
+    <SequencePoints SourceFileIndex="3">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="3" StartLine="50" StartColumn="7" EndLine="50" EndColumn="30" />
+      <SequencePoint IlOffset="IL_0008" SourceFileIndex="3" StartLine="54" StartColumn="11" EndLine="54" EndColumn="31" />
+      <SequencePoint IlOffset="IL_0013" SourceFileIndex="3" Hidden="true" />
+      <SequencePoint IlOffset="IL_0021" SourceFileIndex="3" StartLine="61" StartColumn="9" EndLine="61" EndColumn="20" />
+      <SequencePoint IlOffset="IL_0026" SourceFileIndex="3" Hidden="true" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0029" IsRoot="True" Method="6000008">
+      <Scope OffsetRange="IL_0000-IL_0029" IsRoot="False" Method="6000008">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000010">
+    <Scope OffsetRange="IL_0000-IL_0001" IsRoot="True" Method="6000010" />
+  </Method>
+  <Method Token="6000011">
+    <SequencePoints SourceFileIndex="5">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="5" StartLine="33" StartColumn="7" EndLine="33" EndColumn="144" />
+      <SequencePoint IlOffset="IL_0011" SourceFileIndex="5" StartLine="34" StartColumn="7" EndLine="34" EndColumn="31" />
+      <SequencePoint IlOffset="IL_0018" SourceFileIndex="5" StartLine="35" StartColumn="7" EndLine="35" EndColumn="24" />
+      <SequencePoint IlOffset="IL_0020" SourceFileIndex="5" StartLine="37" StartColumn="7" EndLine="37" EndColumn="29" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0028" IsRoot="True" Method="6000011">
+      <Scope OffsetRange="IL_0000-IL_0028" IsRoot="False" Method="6000011">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+        <Scope OffsetRange="IL_001f-IL_0020" IsRoot="False" Method="6000011">
+          <LocalVariable LocalVariablesSignatureToken="11000004" IlIndex="0" Attributes="PrivateScope" Signature="">extensionGcThread</LocalVariable>
+        </Scope>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000009">
+    <SequencePoints SourceFileIndex="3">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="3" StartLine="69" StartColumn="7" EndLine="69" EndColumn="28" />
+      <SequencePoint IlOffset="IL_0007" SourceFileIndex="3" StartLine="70" StartColumn="7" EndLine="70" EndColumn="23" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0010" IsRoot="True" Method="6000009">
+      <Scope OffsetRange="IL_0000-IL_0010" IsRoot="False" Method="6000009">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000012">
+    <SequencePoints SourceFileIndex="5">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="5" StartLine="50" StartColumn="7" EndLine="50" EndColumn="30" />
+      <SequencePoint IlOffset="IL_0008" SourceFileIndex="5" StartLine="54" StartColumn="11" EndLine="54" EndColumn="31" />
+      <SequencePoint IlOffset="IL_0013" SourceFileIndex="5" Hidden="true" />
+      <SequencePoint IlOffset="IL_0021" SourceFileIndex="5" StartLine="61" StartColumn="9" EndLine="61" EndColumn="20" />
+      <SequencePoint IlOffset="IL_0026" SourceFileIndex="5" Hidden="true" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0029" IsRoot="True" Method="6000012">
+      <Scope OffsetRange="IL_0000-IL_0029" IsRoot="False" Method="6000012">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="600000A">
+    <SequencePoints SourceFileIndex="3">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="3" StartLine="25" StartColumn="7" EndLine="25" EndColumn="36" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0006" IsRoot="True" Method="600000A">
+      <Scope OffsetRange="IL_0000-IL_0006" IsRoot="False" Method="600000A">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000013">
+    <SequencePoints SourceFileIndex="5">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="5" StartLine="69" StartColumn="7" EndLine="69" EndColumn="28" />
+      <SequencePoint IlOffset="IL_0007" SourceFileIndex="5" StartLine="70" StartColumn="7" EndLine="70" EndColumn="23" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0010" IsRoot="True" Method="6000013">
+      <Scope OffsetRange="IL_0000-IL_0010" IsRoot="False" Method="6000013">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000014">
+    <SequencePoints SourceFileIndex="5">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="5" StartLine="25" StartColumn="7" EndLine="25" EndColumn="36" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0006" IsRoot="True" Method="6000014">
+      <Scope OffsetRange="IL_0000-IL_0006" IsRoot="False" Method="6000014">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000015">
+    <Scope OffsetRange="IL_0000-IL_0001" IsRoot="True" Method="6000015" />
+  </Method>
+  <Method Token="6000016">
+    <SequencePoints SourceFileIndex="6">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="6" StartLine="33" StartColumn="7" EndLine="33" EndColumn="157" />
+      <SequencePoint IlOffset="IL_0011" SourceFileIndex="6" StartLine="34" StartColumn="7" EndLine="34" EndColumn="32" />
+      <SequencePoint IlOffset="IL_0018" SourceFileIndex="6" StartLine="35" StartColumn="7" EndLine="35" EndColumn="43" />
+      <SequencePoint IlOffset="IL_0025" SourceFileIndex="6" StartLine="37" StartColumn="7" EndLine="37" EndColumn="29" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_002d" IsRoot="True" Method="6000016">
+      <Scope OffsetRange="IL_0000-IL_002d" IsRoot="False" Method="6000016">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+        <Scope OffsetRange="IL_0024-IL_0025" IsRoot="False" Method="6000016">
+          <LocalVariable LocalVariablesSignatureToken="11000005" IlIndex="0" Attributes="PrivateScope" Signature="">extensionBgThread</LocalVariable>
+        </Scope>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000017">
+    <SequencePoints SourceFileIndex="6">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="6" StartLine="49" StartColumn="7" EndLine="49" EndColumn="26" />
+      <SequencePoint IlOffset="IL_0019" SourceFileIndex="6" StartLine="50" StartColumn="9" EndLine="50" EndColumn="16" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_001a" IsRoot="True" Method="6000017">
+      <Scope OffsetRange="IL_0000-IL_001a" IsRoot="False" Method="6000017">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000018">
+    <SequencePoints SourceFileIndex="6">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="6" StartLine="57" StartColumn="7" EndLine="57" EndColumn="28" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0008" IsRoot="True" Method="6000018">
+      <Scope OffsetRange="IL_0000-IL_0008" IsRoot="False" Method="6000018">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+  <Method Token="6000019">
+    <SequencePoints SourceFileIndex="6">
+      <SequencePoint IlOffset="IL_0000" SourceFileIndex="6" StartLine="25" StartColumn="7" EndLine="25" EndColumn="36" />
+    </SequencePoints>
+    <Scope OffsetRange="IL_0000-IL_0006" IsRoot="True" Method="6000019">
+      <Scope OffsetRange="IL_0000-IL_0006" IsRoot="False" Method="6000019">
+        <UsedNamespace>IKVM.Attributes</UsedNamespace>
+        <UsedNamespace>IKVM.Runtime</UsedNamespace>
+        <UsedNamespace>java.lang</UsedNamespace>
+        <UsedNamespace>System.Runtime.CompilerServices</UsedNamespace>
+      </Scope>
+    </Scope>
+  </Method>
+</PdbContent>
